@@ -14,10 +14,11 @@
 
 2.内建函数——功能函数：
 	标准类型运算：cmp()\str()\type()\repr()\isinstance()
-	数值运算：abs()\coerce()\divmod()\pow()\round()\hex()\oct()\ord()\chr()\unichr()
+	数值运算：abs()\coerce()\divmod()\pow()\round()\hex()\oct()\ord()
 	序列类型计算：enumerate()\len()\max()\min()\reversed()\sorted()\sum()\zip()
 	复数运算：real\imag\conjugate()
-	输入：raw_input()
+	字符串类型函数：raw_input()\str()\unicode()\chr()\unichr()
+	字符串内建函数：string.capitalize()\string.center()\string.count()\string.decode()\string.encode()\string.endwith()\string.expandtabs()\string.find()\string.index()\string.isalnum()\string.isdecimal()\string.isdigit()\string.islower()\string.isnumeric()\string.isspace()\string.istitle()\string.isupper()\string.join()\string.ljust()\string.lower()\string.lstrip()\string.partition()\string.replace()\string.rfind()\string.rindex()\string.fjust()\string.rpartition()\string.rstrip()\string.split()\string.splitlines()\string.startswith()\string.strip()\string.swapcase()\string.title()\string.translate()\string.upper()\string.zfill()
 	循环:xrange()\range()\
 	实用：dir()\help()\
 	文件：open()
@@ -27,9 +28,9 @@
 
 3.模块：
 	数字类型相关模块：decimal()\array()\math\cmath\operator\random\__future__.division
-
+	字符串类型相关模块：ASCII码string\string(uppercase\lowercase\letters\digits\Template)\re(match()\search()\sub())\struct\c/StringIO\base64\codes\codecs\crypt\difflib\hashlib\hma\md5\rotor\sha\stringprep\textwrap\unicodedata
 4.对象类型：
-	标准类型：数字（Integer整型、Boolean布尔型、Long integer长整型、Floating point real number浮点型、Complex number复数型）、String字符串、List列表、Tuple元组、Dictionary字典
+	标准类型：数字（Integer整型、Boolean布尔型、Long integer长整型、Floating point real number浮点型、Complex number复数型）、String字符串（ASCII码str字符串、unicode字符串(u'')、原始字符串(r'')、抽象类basestring）、List列表、Tuple元组、Dictionary字典
 	其他内建类型：Typoe类型、None Null对象、file文件、set（固定）集合、函数方法、模块、类
 	内部类型：代码、帧、跟踪记录、切片、Ellipsis省略、xrange
 5.对象标准类型分类：
@@ -41,3 +42,6 @@
 	算术操作符：**、*、/、//、%、+、-
 	位操作符：~、<<、>>、^、|
 	序列类型操作符：成员关系操作符（in\not in）、连接操作符（+）、重复操作符（*）、切片操作符（[]\[:]\[::]）
+	字符串操作符：格式化操作符（符号%c\%r\%s\%d\%i\%u\%o\%x\%X\%e\%E\%f\%F\%g\%G\%%  辅助指令*\-\+\<sp>\#\0\%\(var)\m.n  种类元组参数\字典参数）、
+7.转义字符（可以十进制、八进制、十六进制表示）：NUL\BEL\BS\HT\LF\VT\FF\CR\ESC\"\'\\    
+8.常用Unicode编辑码：utf-8\utf-16\utf-16-le\utf-16-be\ascii7\iso-8859-1\unicode-escape\raw-unicode-escape\native
